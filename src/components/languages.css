@@ -1,0 +1,48 @@
+
+
+#node {
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    left: 25%;
+    top: 45%;
+
+}
+
+
+#react {
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    left: 38%;
+    top: 40%;
+}
+
+#C {
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    top: 35%;
+    
+}
+
+
+#go {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:40%;
+    right: 38%;
+}
+
+
+
+
+#python {
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    right: 25%;
+    top: 45%;
+    
+}

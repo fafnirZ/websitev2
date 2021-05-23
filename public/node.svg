@@ -1,0 +1,25 @@
+<svg width="114" height="131" viewBox="0 0 114 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    path {
+        stroke: black;
+        animation: fadeIn 2s;
+    }
+    @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+    }
+</style>
+<path d="M57 1L1 34V97.5" stroke-width="0.8"/>
+<path d="M57.5 130.5L113.5 98V34L65.5 4.5" stroke-width="0.8"/>
+<path d="M1 97L44 122.5" stroke-width="0.8"/>
+<path d="M7 79V64.5L17 58.5L27.5 64.5V79L20.5 76V68.5L17 66.5L13.5 68.5V76L7 79Z" stroke-width="0.8"/>
+<path d="M34 64V76L43.5 82L54 76" stroke-width="0.8"/>
+<path d="M36 63L43.5 58.5L54 64.5V73.5" stroke-width="0.8"/>
+<path d="M41 72.5V68.5L44.5 66L47.5 68.5V72.5L44.5 74.5L41 72.5Z" stroke-width="0.8"/>
+<path d="M61 64L70.5 59L74.5 60.5V45L80 49.5V75.5L70.5 82.5L61 75.5V64Z" stroke-width="0.8"/>
+<path d="M67 69L70.5 67L73.5 69V72.5L70.5 74.5L67 72.5V69Z" stroke-width="0.8"/>
+<path d="M87.5 64.5L97.5 59L108 64.5V68.5L101 72V68.5L97.5 66.5L94 68.5V72L103.5 78.5L97.5 82L87.5 75.5V64.5Z" stroke-width="0.8"/>
+<path d="M95.5 70L97.5 68.5L99 70V72H97.5H95.5V70Z" stroke-width="0.8"/>
+</svg>

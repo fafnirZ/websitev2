@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { Heading } from './components/heading';
+import { OperaBridge } from './components/OperaBridge';
+import { LanguageIcons } from './components/languages';
 function App() {
   return (
-    <header>
+    <div id="body-container">
       <Heading/>
-    </header>
+      <LanguageIcons/>
+      <OperaBridge/>
     </div>
+
   );
 }
 

@@ -1,0 +1,33 @@
+
+.heading {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Underline {
+    text-decoration-color: #D2AFFF;
+}
+
+.nav {
+    display:flex;
+    flex-direction:row; 
+    justify-content:center;
+    grid-gap: 30rem;
+}
+
+
+.links {
+    display:flex;
+    grid-gap: 5rem;
+}
+
+.links > a {
+    color: black;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    grid-gap: 2rem;
+}
