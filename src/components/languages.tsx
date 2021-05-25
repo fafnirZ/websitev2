@@ -3,7 +3,7 @@ import './languages.css';
 export function LanguageIcons() {
 
     return (
-        <div>
+        <div className="icon-container">
             <object id="go" type="image/svg+xml" data="go.svg">
             </object>
             <object data="node.svg" type="image/svg+xml" id="node">

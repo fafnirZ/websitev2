@@ -1,5 +1,5 @@
 
-
+/*
 #node {
     position: absolute; 
     height: 100px;
@@ -46,10 +46,32 @@
     top: 45%;
     
 }
+*/
+
+#node, #go, #react, #C, #python {
+    
+    max-height: 80px;
+    max-width: 80px;
+    
+
+}
 
 
-@media only screen and (max-width: 800px) {
+.icon-container {
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -200px;
+    grid-gap: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
     #node, #go, #react, #C, #python {
-        display: none;
+        max-height: 60px;
+    }
+    .icon-container {
+        margin-bottom: -230px;
     }
 }
+
