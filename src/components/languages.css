@@ -46,3 +46,10 @@
     top: 45%;
     
 }
+
+
+@media only screen and (max-width: 800px) {
+    #node, #go, #react, #C, #python {
+        display: none;
+    }
+}

@@ -2,7 +2,7 @@ import './OperaBridge.css'
 export function OperaBridge() {
     //temporary method
     return (
-        <svg id="graphic" width="1240" height="727" viewBox="0 0 1240 727" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="graphic-large" width="1240" height="727" viewBox="0 0 1240 727" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path className="path" d="M278.783 429.873L351.834 429.171" />
             <path className="path" d="M242.921 403.019C253.531 403.807 275.812 406.006 280.052 408.493" />
             <path className="path" d="M433.163 420.872L450.374 420.779C450.334 413.336 445.009 402.201 442.352 397.564L433.163 420.872Z" />

@@ -31,3 +31,27 @@
     display: flex;
     grid-gap: 2rem;
 }
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .nav {
+        flex-direction: column;
+        align-content: space-between;
+        grid-gap: 1rem;
+    }
+
+    .links {
+        justify-content: center;
+        grid-gap: 2rem;
+    }
+
+    .icons {
+        justify-content: center;
+
+    }
+ 
+}
