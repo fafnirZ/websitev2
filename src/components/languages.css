@@ -58,11 +58,11 @@
 
 
 .icon-container {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: -200px;
+    /*margin-bottom: -200px;*/
     grid-gap: 1.5rem;
 }
 
@@ -71,7 +71,7 @@
         max-height: 60px;
     }
     .icon-container {
-        margin-bottom: -230px;
+        /*margin-bottom: -230px;*/
     }
 }
 

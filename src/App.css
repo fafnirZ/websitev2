@@ -2,7 +2,7 @@
   font-family: 'Red Hat Display'
 }
 
-#body-container {
+.body-container {
   display:flex;
   flex-direction: column;
   justify-content: center;

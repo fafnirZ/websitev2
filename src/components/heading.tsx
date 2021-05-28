@@ -1,4 +1,5 @@
 import './heading.css'
+import { Link } from 'react-router-dom';
 export function Heading() {
 
     return (
@@ -10,9 +11,10 @@ export function Heading() {
             <div className="nav">
 
                 <div className="links">
-                    <a href="">Projects</a>
-                    <a href="">About me</a>
-                    <a href="">Blog</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/about">About me</Link>
+                    <Link to="/blogs">Blog</Link>
                 </div>
                 <div className="icons">
                     <img src="Linkedin.svg" style={{width:"47px", height:"47px", background:"white"}}/>
