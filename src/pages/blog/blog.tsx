@@ -3,7 +3,7 @@ import './blog.css';
 export function Blogs() {
 
     return (
-        
+
         <div id="blog-box" className="body-container">
             <div className="blog-container">
 
@@ -42,8 +42,12 @@ export function Blogs() {
                     picture
                 </div>
             </div>          
-
+            <button className="body-container">
+                show more
+            </button>
         </div>
+
+
 
     )
 }
