@@ -17,8 +17,12 @@ export function Heading() {
                     <Link to="/blogs">Blog</Link>
                 </div>
                 <div className="icons">
-                    <img src="Linkedin.svg" style={{width:"47px", height:"47px", background:"white"}}/>
-                    <img src="github.svg" style={{width:"40px", height:"40px", background:"white"}}/>
+                    <a href="https://github.com/fafnirZ">
+                        <img src="Linkedin.svg" style={{width:"47px", height:"47px", background:"white"}}/>
+                    </a>
+                    <a href='https://www.linkedin.com/in/jacky-xie/'>
+                        <img src="github.svg" style={{width:"40px", height:"40px", background:"white"}}/>
+                    </a>
                 </div>
 
                 

@@ -9,7 +9,7 @@ export function Blogs() {
 
                 <div className="blog-content-wrapper">
                     <h1>
-                        Title 
+                        Blog placeholder 1
                     </h1>
                     <div className="blog-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium obcaecati, dolorem possimus id unde animi ratione totam sit earum adipisci consequuntur autem aut laudantium corporis qui expedita libero distinctio suscipit!</div>
                 </div>
@@ -22,7 +22,7 @@ export function Blogs() {
 
                 <div className="blog-content-wrapper">
                     <h1>
-                        Blog Title
+                        Blog placeholder 2
                     </h1>
                     <div className="blog-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium obcaecati, dolorem possimus id unde animi ratione totam sit earum adipisci consequuntur autem aut laudantium corporis qui expedita libero distinctio suscipit!</div>
                 </div>
@@ -34,7 +34,7 @@ export function Blogs() {
 
                 <div className="blog-content-wrapper">
                     <h1>
-                        Blog Title
+                        Blog placeholder 3
                     </h1>
                     <div className="blog-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium obcaecati, dolorem possimus id unde animi ratione totam sit earum adipisci consequuntur autem aut laudantium corporis qui expedita libero distinctio suscipit!</div>
                 </div>

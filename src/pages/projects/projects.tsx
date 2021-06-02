@@ -12,9 +12,11 @@ export function Projects() {
 
                 <div className="content-wrapper">
                     <h1>
-                        project 1  
+                        UNSW Degree Planner 
                     </h1>
-                    <div className="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium obcaecati, dolorem possimus id unde animi ratione totam sit earum adipisci consequuntur autem aut laudantium corporis qui expedita libero distinctio suscipit!</div>
+                    <div className="content">
+                        A simple Drag and drop UI for a degree planner for UNSW courses, Functionality includes an interactive UI, Oauth2 implementation for Facebook and a search functionality.
+                    </div>
                 </div>
                 
             </div>
@@ -25,9 +27,11 @@ export function Projects() {
 
                 <div className="content-wrapper">
                     <h1>
-                        project 2
+                        Linux Rootkit
                     </h1>
-                    <div className="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium obcaecati, dolorem possimus id unde animi ratione totam sit earum adipisci consequuntur autem aut laudantium corporis qui expedita libero distinctio suscipit!</div>
+                    <div className="content">
+                        A simple linux Rootkit created for linux kernel version 4.15, Rootkit functionality includes hiding from system processes, root privilege escallation for non-privileged user, hiding outbound TCP connections to a reverse shell.
+                    </div>
                 </div>
 
             </div>          
@@ -38,9 +42,11 @@ export function Projects() {
 
                 <div className="content-wrapper">
                     <h1>
-                        project 3
+                        NUIBot
                     </h1>
-                    <div className="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium obcaecati, dolorem possimus id unde animi ratione totam sit earum adipisci consequuntur autem aut laudantium corporis qui expedita libero distinctio suscipit!</div>
+                    <div className="content">
+                        A simple discord music streaming bot. This bot allows you to query and play the first song in a youtube search as well as play from a direct link. Utilises yt-dl library and transforms audio into FFMPEG format to be streamed in a discord server. Also deployed on heroku
+                    </div>
                 </div>
             </div>          
 

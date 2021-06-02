@@ -28,6 +28,7 @@ export function Animationselector() {
           {display[0] > 800 && <LanguageIcons />}
           {display[0] > 800 && <OperaBridge/> }
           {display[0] <= 800 && <Opera />}
+          {display[0] <= 800 && <LanguageIcons />}
         </div>
 
     )
