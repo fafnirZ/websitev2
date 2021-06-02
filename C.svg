@@ -1,0 +1,19 @@
+<svg width="127" height="128" viewBox="0 0 127 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    path {
+        stroke: black;
+        animation: fadeIn 2s;
+    }
+    @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+    }
+</style>
+<path d="M50 1H77L125.5 29L64 63.5" stroke-width="0.8"/>
+<path d="M50.5 1L1 30V100.5L50.5 127.5H79.5L125.5 100.5V36" stroke-width="0.8"/>
+<path d="M69 67L83 76C78 84 63.7 96 46.5 80C41.3333 72.1667 35.6 53.9 54 43.5C60.1666 41.5 74.6 40.2 83 51" stroke-width="0.8"/>
+<path d="M104 41C95.0001 23.5 51 0 21.5001 41C15.8334 54.5 11.7001 88.3 40.5001 105.5C54.8334 111.667 87.6001 116.7 104 87.5C102.8 85.9 92.8333 80.5 88 78" stroke-width="0.8"/>
+<path d="M106.5 90L125.5 101" stroke-width="0.8"/>
+</svg>
