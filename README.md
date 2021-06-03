@@ -1,7 +1,7 @@
 # Personal portfolio website for me
 
-##whoami?
+## whoami?
 **Jacky Xie**
 
-#website address
+# website address
 [jxie.dev](jxie.dev)
