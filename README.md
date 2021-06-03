@@ -4,4 +4,4 @@
 **Jacky Xie**
 
 #website address
-(jxie.dev)[jxie.dev]
+[jxie.dev](jxie.dev)
