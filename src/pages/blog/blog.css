@@ -48,7 +48,12 @@
     display:flex;
     position:absolute;
     background: white;
+    opacity: 85%;
 
+}
+
+#filter > p {
+    padding-top: 10rem;
 }
 
 @media only screen and (max-width: 1000px) {

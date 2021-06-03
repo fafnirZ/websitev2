@@ -2,7 +2,7 @@ import './blog.css';
 import react from 'react';
 
 export function Blogs() {
-    const [scrollHeight, setScrollHeight] = react.useState(document.scrollHeight);
+    const [scrollHeight, setScrollHeight] = react.useState(0);
     const [elementHeight, setElementHeight] = react.useState(0);
 
 
@@ -11,12 +11,17 @@ export function Blogs() {
         document.addEventListener('resize', ()=> {
             setScrollHeight(document.scrollHeight);
         })
+
+        return(()=> {
+            document.removeEventListener('resize', ()=> {
+                setScrollHeight(document.scrollHeight);
+            })  
+        })
     }, [])
 
     //checks scroll height has changed and re-renders height of filter
     react.useEffect(()=> {
         setElementHeight(document.getElementById('blog-box').scrollHeight);
-        console.log(document.getElementById('blog-box').scrollHeight)
         console.log(scrollHeight)
     },[scrollHeight])
 
@@ -27,7 +32,10 @@ export function Blogs() {
 
             {elementHeight > 0 &&             
             <div id="filter" style={{height: elementHeight}}>
-                this is in work in progress
+                <p>
+                    this is in work in progress
+                </p>
+
             </div>}
 
 
