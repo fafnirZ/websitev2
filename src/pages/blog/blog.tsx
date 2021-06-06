@@ -1,27 +1,43 @@
 import './blog.css';
 import react from 'react';
 
+type BlogBox = {scrollHeight: number}
+
+
 export function Blogs() {
+    const [blogBox, setBlogBox] = react.useState<BlogBox | null>(null);
     const [scrollHeight, setScrollHeight] = react.useState(0);
     const [elementHeight, setElementHeight] = react.useState(0);
 
 
     //add event listener listening to scrollheight increase and decrease as window gets resized
     react.useEffect(()=> {
-        document.addEventListener('resize', ()=> {
-            setScrollHeight(document.scrollHeight);
+        document.addEventListener('load', ()=> {
+            console.log('loaded');
+            setBlogBox(document.getElementById('blog-box'))
+
         })
 
+        document.addEventListener('resize', ()=> {
+            setScrollHeight(document.body.scrollHeight);
+        })
+
+
         return(()=> {
+            document.removeEventListener('load', ()=> {
+                setBlogBox(document.getElementById('blog-box'))
+            })
             document.removeEventListener('resize', ()=> {
-                setScrollHeight(document.scrollHeight);
+                setScrollHeight(document.body.scrollHeight);
             })  
+
         })
     }, [])
 
     //checks scroll height has changed and re-renders height of filter
     react.useEffect(()=> {
-        setElementHeight(document.getElementById('blog-box').scrollHeight);
+        console.log(blogBox)
+        blogBox !== null && setElementHeight(blogBox.scrollHeight);
         console.log(scrollHeight)
     },[scrollHeight])
 
