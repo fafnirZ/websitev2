@@ -1,15 +1,16 @@
 import ReactMarkdown from 'react-markdown'
 import react from 'react';
-import md from './md.md'
 import './markdown.css'
 
+const md =  require(`./md.md`);
 
 
 
 export function Markdown() {
+    
     const [read, setRead] = react.useState(false);
     const [text, setText] = react.useState("");
-
+    /*
     react.useEffect(()=> {
         fetch(md)
         .then(response => {
@@ -19,10 +20,12 @@ export function Markdown() {
             setText(text)
         })
     },[])
+    */
+    console.log(md)
 
     return (
         <ReactMarkdown 
-        children={text} 
+        children={md}
         className="body-container"
         components={{
             h1: 'h2',
