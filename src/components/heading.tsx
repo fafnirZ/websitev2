@@ -14,7 +14,7 @@ export function Heading() {
                     <Link to="/">Home</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About me</Link>
-                    <Link to="/blogs">Blog</Link>
+                    
                 </div>
                 <div className="icons">
                     <a id="linkedinI" href="https://www.linkedin.com/in/jacky-xie/">
