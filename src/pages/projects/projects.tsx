@@ -7,7 +7,24 @@ export function Projects() {
         <div className="body-container">
             <div className="projects-container">
                 <div className="image">
-                    picture
+                    <img src="cse.webp"/>
+                </div>
+
+                <div className="content-wrapper">
+                    <h1>
+                        CSESoc website
+                    </h1>
+                    <div className="content">
+                        The new csesoc.org website replacing the decade old media.csesoc.org website in design.
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div className="projects-container">
+                <div className="image">
+                    <img src="courseplanner.webp"/>
                 </div>
 
                 <div className="content-wrapper">
