@@ -1,10 +1,60 @@
 import './blog.css';
+import react from 'react';
+
+type BlogBox = {scrollHeight: number}
+
 
 export function Blogs() {
+    const [blogBox, setBlogBox] = react.useState<BlogBox | null>(null);
+    const [scrollHeight, setScrollHeight] = react.useState(0);
+    const [elementHeight, setElementHeight] = react.useState(0);
+
+
+    //add event listener listening to scrollheight increase and decrease as window gets resized
+    react.useEffect(()=> {
+        document.addEventListener('load', ()=> {
+            console.log('loaded');
+            setBlogBox(document.getElementById('blog-box'))
+
+        })
+
+        document.addEventListener('resize', ()=> {
+            setScrollHeight(document.body.scrollHeight);
+        })
+
+
+        return(()=> {
+            document.removeEventListener('load', ()=> {
+                setBlogBox(document.getElementById('blog-box'))
+            })
+            document.removeEventListener('resize', ()=> {
+                setScrollHeight(document.body.scrollHeight);
+            })  
+
+        })
+    }, [])
+
+    //checks scroll height has changed and re-renders height of filter
+    react.useEffect(()=> {
+        console.log(blogBox)
+        blogBox !== null && setElementHeight(blogBox.scrollHeight);
+        console.log(scrollHeight)
+    },[scrollHeight])
 
     return (
 
+
         <div id="blog-box" className="body-container">
+
+            {elementHeight > 0 &&             
+            <div id="filter" style={{height: elementHeight}}>
+                <p>
+                    this is in work in progress
+                </p>
+
+            </div>}
+
+
             <div className="blog-container">
 
                 <div className="blog-content-wrapper">
@@ -46,7 +96,7 @@ export function Blogs() {
                 show more
             </button>
         </div>
-
+        
 
 
     )
