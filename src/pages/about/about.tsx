@@ -20,6 +20,9 @@ export function About() {
                 <a href="https://github.com/fafnirZ/websitev2">https://github.com/fafnirZ/websitev2</a>
                 </p>
             </div>
+            <div className="me-container">
+                <img src="me.jpeg"/>
+            </div>
         </div>
     );
 };
