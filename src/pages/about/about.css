@@ -1,10 +1,16 @@
 .about-container {
     display:flex;
-    flex-direction: column;
-    width: 60%;
+    justify-content: space-around;
+    padding: 2rem;
 }
+.info-container {
+	display:flex;
+	flex-direction: column;
+	width: 40vw;
+}	
 
 .me-container {
+	display:flex;
 	width: 30vw;
 	height: 65vh;
 }
@@ -13,4 +19,9 @@
 	display:flex;
 	max-height: 100%;
 	object-fit: fit;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
 }
