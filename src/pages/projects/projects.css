@@ -2,6 +2,7 @@
     padding-top: 3rem;
     width: 60%;
     display:flex;
+    grid-gap: 0;
 
 }
 
@@ -12,7 +13,7 @@
     flex-direction: column;
     padding-left: 2rem;
     background: #d7d7d7;
-    max-height: 200px;
+    max-height: 300px;
     min-width: 400px;
     overflow: hidden;
 }
@@ -22,9 +23,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    background: grey;
+    /*background: grey;*/
     width: 400px;
-    height: 200px;
+    height: 250px;
     aspect-ratio: 16/9;
 }
 
@@ -45,6 +46,7 @@
     .projects-container {
         flex-direction: column;
         align-items: center;
+
     }
 
     .content-wrapper {
@@ -53,12 +55,29 @@
         max-height: 400px;
     }
 
+    .content-wrapper > h1 {
+        padding-left: 10px;
+    }
+
+    .content {
+        padding-left: 10px;
+    }
+
+
+    .image > img {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
     .image {
         width: 80vw;
     }
+
+
+
+
     .content-wrapper {
         width: 80vw;
         min-width: 0;
