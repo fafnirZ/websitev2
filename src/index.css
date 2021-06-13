@@ -1,5 +1,6 @@
 :root{
 	font-family: 'Red Hat Display';
-	--color-background: black;
+	--color-background: #242526;
 	--color-text: white;
+	--color-primary: white;
 }

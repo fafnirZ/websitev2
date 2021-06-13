@@ -23,7 +23,7 @@
 }
 
 .links > a {
-    color: black;
+    color: var(--color-text);
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@
 #linkedinI {
     width: 40px;
     height:40px;
-    background:white
+    background: var(--color-background);
 }
 
 #linkedinI > svg {
@@ -53,7 +53,7 @@
 #githubI{
     width:40px;
     height:40px;
-    background:white
+    background: var(--color-background);
 }
 
 #githubI > svg {
@@ -63,11 +63,11 @@
 }
 
 #linkedinI path {
-    fill: black;
+    fill: var(--color-primary);
 }
 
 #githubI path {
-    fill:black;
+    fill: var(--color-primary);
 }
 
 #linkedinI path:hover {
