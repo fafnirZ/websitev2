@@ -7,7 +7,13 @@
 	display:flex;
 	flex-direction: column;
 	width: 40vw;
-}	
+}
+
+.societyimg > img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
 
 .me-container {
 	display:flex;
@@ -20,6 +26,7 @@
 	max-height: 100%;
 	object-fit: fit;
 }
+
 
 @media only screen and (max-width: 500px) {
 	.about-container {

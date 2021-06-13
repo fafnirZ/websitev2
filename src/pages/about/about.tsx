@@ -11,9 +11,13 @@ export function About() {
     				I strive to achieve a vastly diversified portfolio of projects in multiple fields as I believe in this rapidly changing era of technology; being a 'Jack of All Trades' would be a great addition to any team when engineering a solution.<br/>
                     <br/>
                     My commitments to current team projects include: <br/>
-                    @ UNSW Computer Science and engineering society projects subcommittee member <br/>
-                    @ UNSW Security Society projects subcommittee member.
+                    @ UNSW Computer Science and engineering society <b>projects</b> subcommittee member <br/>
+                    @ UNSW Security Society <b>projects</b> subcommittee member.
                     </p>
+                    <div className ="societyimg">
+                        <img src="csesoc.jpeg"/>
+                        <img src="secsoc.png"/>
+                    </div>
                     <p>
                     This website is built using Reactjs, and is deployed on Github pages.
                     For the full source code check out: <br/>
@@ -24,6 +28,5 @@ export function About() {
                     <img src="me.jpeg"/>
                 </div>
             </div>
-
     );
 };
