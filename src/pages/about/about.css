@@ -32,7 +32,11 @@
 		justify-content: center;
 	}
 	.info-container {
-		align-items: flex-start;
+		align-self: flex-start;
+		padding-left: 2rem;
+	}
+	.info-container text{
+		text-overflow: wrap;
 	}
 
 }
