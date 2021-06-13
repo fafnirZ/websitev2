@@ -1,7 +1,7 @@
 <svg width="205" height="205" viewBox="0 0 205 205" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
     path, circle {
-        stroke: black;
+        stroke: white;
         animation: fadeIn 3s;
     }
     @keyframes fadeIn {
