@@ -1,6 +1,14 @@
-:root {
-  font-family: 'Red Hat Display'
+html {
+	background: var(--color-background);
+	color: var(--color-text);
 }
+
+a, a:hover, a:active, a:visited {
+ color: var(--color-text); 
+}
+
+
+
 
 .body-container {
   display:flex;
