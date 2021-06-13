@@ -33,7 +33,7 @@
     display:flex;
     height: 100%;
 
-    object-fit: fill;
+    object-fit: cover;
     overflow: hidden;
 }
 
