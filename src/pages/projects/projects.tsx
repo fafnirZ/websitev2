@@ -11,9 +11,11 @@ export function Projects() {
                 </div>
 
                 <div className="content-wrapper">
-                    <h1>
-                        CSESoc website
-                    </h1>
+                    
+                        <h1>
+                            CSESoc website
+                        </h1>
+                    
                     <div className="content">
                         The new csesoc.org website replacing the decade old media.csesoc.org website in design.
                     </div>
