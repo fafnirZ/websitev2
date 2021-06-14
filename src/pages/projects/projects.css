@@ -71,6 +71,7 @@
     .content-wrapper > h1 {
         display: flex;
         justify-content: center;
+        padding: 10px 10px;
     }
 
     .content {  
@@ -89,9 +90,6 @@
         width: 80vw;
         height: 200px;
     }
-
-
-
 
     .content-wrapper {
         width: 80vw;
