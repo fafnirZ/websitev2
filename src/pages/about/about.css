@@ -9,10 +9,20 @@
 	width: 40vw;
 }
 
+.societyimg {
+	display:flex;
+	grid-gap: 10px;
+}
+
 .societyimg > img {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+
+}
+
+.societyimg > img:hover {
+	transform:scale(1.1);
 }
 
 .me-container {

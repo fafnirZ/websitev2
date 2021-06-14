@@ -45,6 +45,11 @@
     overflow: hidden;
 }
 
+.image > img:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 
 .content {
     padding: 10px;
