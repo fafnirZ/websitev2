@@ -1,7 +1,7 @@
-# Personal portfolio website for me
+# [DEPRECATED] Personal portfolio website for me
 
 ## whoami?
 **Jacky Xie**
 
 # website address
-[jxie.dev](jxie.dev)
+[legacy.jxie.dev](legacy.jxie.dev)
